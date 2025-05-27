@@ -1,2 +1,15 @@
 .venv
-first-app/lib
+dist/
+build/
+
+*.log
+*.exe
+*.spec
+*.conf
+
+**/lib/
+**/__pycache__
+**/node_modules
+**/package-lock.json
+**/.streamlit/
+**/yolo
